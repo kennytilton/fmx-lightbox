@@ -1,4 +1,4 @@
-# Flutter/MX Starter
+# Lightbox, a Flutter/MX Demo Project
 
 A starter/instructional repo to help get you started on your own app using [ClojureDart](https://github.com/Tensegritics/ClojureDart) and [Flutter/MX](https://github.com/kennytilton/flutter-mx).
 
