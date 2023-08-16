@@ -1,0 +1,12 @@
+(ns lightbox.main
+  (:require
+    ["package:flutter/widgets.dart" :as w]
+    [tilton.fmx.api :as fx]
+    [lightbox.hello-world :as hello]))
+
+(defn main []
+  (.ensureInitialized w/WidgetsFlutterBinding)
+  (fx/run-app
+    (fx/fx-render nil
+      (hello/make-app))))
+
